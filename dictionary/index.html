@@ -10,7 +10,7 @@
 .app{width:100%;max-width:1100px;height:100vh;height:100dvh;margin:0 auto;padding:calc(env(safe-area-inset-top) + 8px) max(10px,env(safe-area-inset-right)) calc(env(safe-area-inset-bottom) + 8px) max(10px,env(safe-area-inset-left));display:flex;flex-direction:column;gap:8px;overflow:hidden;background:#fff;border:1px solid var(--line);border-radius:18px}
 .page-switch{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:5px;flex:none}.page-switch button{min-width:0;min-height:46px;border:1px solid var(--line);border-radius:10px;padding:6px 5px;font-size:18px;line-height:1.35;background:#eef2e7}.page-switch button[aria-selected=true]{background:var(--green);border-color:var(--green);color:#fff;font-weight:700}.nav-secondary{font-size:.72em;display:block}
 .workspace{min-height:0;flex:1;display:flex;flex-direction:column}.panel{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:2px 0 12px;scrollbar-gutter:stable}.builder{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:0 0 8px}.builder label{min-width:0;font-size:16px;color:var(--muted)}.builder select,.combined-sound{display:block;width:100%;min-width:0;height:64px;margin-top:4px;border:1px solid #bdcdb5;border-radius:8px;padding:4px 8px;background:#fafcf7;color:var(--ink);font-size:36px;font-weight:400;line-height:1.2}.builder select option{font-size:24px}.combined-sound{font-family:Georgia,"Times New Roman",serif;background:#edf5e5;overflow:auto;white-space:nowrap;line-height:54px}.builder .tone-select{font-size:26px}.builder select:disabled{-webkit-text-fill-color:var(--ink);opacity:1}
-.tones{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px;margin:0 0 8px;flex:none}.tone{min-width:0;min-height:64px;border:1px solid var(--line);border-radius:10px;background:#fff;padding:4px 1px}.tone small{display:block;font-size:15px;white-space:nowrap}.tone b{display:block;font-size:34px;line-height:1.15;font-weight:400}.tone .tone-endings{font-size:28px;letter-spacing:-1px;white-space:nowrap}.tone[aria-pressed=true]{background:var(--green);color:#fff;border-color:var(--green)}.tone-ending-letter.is-match{color:#ffb300}.tone:disabled{-webkit-text-fill-color:currentColor}
+.tones{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:2px;margin:0 0 8px;flex:none}.tone{min-width:0;min-height:64px;border:1px solid var(--line);border-radius:10px;background:#fff;padding:4px 1px}.tone small{display:block;font-size:15px;white-space:nowrap}.tone b{display:block;font-size:34px;line-height:1.15;font-weight:400}.tone .tone-endings{font-size:28px;letter-spacing:-1px;white-space:nowrap}.tone[aria-pressed=true]{background:var(--green);color:#fff;border-color:var(--green)}.tone-ending-letter.is-match{color:#ffb300}.tone:disabled{-webkit-text-fill-color:currentColor}
 .formula{background:#edf5e5;border-radius:10px;padding:14px 10px;font-size:27px;line-height:1.4;font-weight:700;overflow-wrap:anywhere;margin-bottom:8px}.primary,.secondary{min-height:44px;border-radius:24px;padding:9px 18px;font-size:18px;line-height:1.35}.primary{border:1px solid var(--green);background:var(--green);color:#fff;font-weight:700}.secondary{border:1px solid #b9cbb0;background:transparent}.builder-play{display:block;width:100%;font-size:21px}.sub{font-size:13px;color:var(--muted);line-height:1.5;margin:10px 0}.player{background:#e8eedf;border:1px solid var(--line);border-radius:14px;padding:12px;min-height:0}.voice-display{display:grid;grid-template-columns:minmax(0,1fr) minmax(150px,1fr);align-items:start;gap:18px}.syllable,.han{text-align:center;font-size:clamp(64px,10vw,112px);line-height:1.2;overflow-wrap:anywhere;font-weight:400}.syllable{font-family:Georgia,"Times New Roman",serif}.han{color:var(--muted);font-family:"PingFang TC","Microsoft JhengHei",sans-serif}.listen-controls{display:flex;flex-direction:column;gap:10px;padding-top:8px;min-width:0}.source-row{font-size:13px;text-align:center;line-height:1.5}.playrow{display:flex;flex-direction:column;gap:8px}.status{font-size:14px;text-align:center;line-height:1.6;min-height:24px;overflow-wrap:anywhere}.auto-controls{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:8px 0}.speed-field{display:flex;align-items:center;gap:8px;font-size:18px}.speed-title{font-family:"Heiti TC","Microsoft JhengHei",sans-serif;color:#000;font-weight:700}.speed-field select,.practice-speed select{height:44px;border:1px solid #bdcdb5;border-radius:8px;background:#fafcf7;padding:4px 8px;font-size:18px}.auto-state{font-size:14px;color:var(--muted)}
 .examples-panel{display:flex;flex-direction:column;overflow:hidden;padding-bottom:0}.practice-tools{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}.practice-modes{display:flex;gap:5px;flex-wrap:wrap}.practice-modes button{border:1px solid var(--line);border-radius:9px;background:#f7f9f2;min-height:44px;font-size:15px;padding:6px 10px}.practice-modes button[aria-pressed=true]{background:var(--green);color:#fff}.practice-speed{font-weight:700;display:flex;align-items:center;gap:6px;font-size:15px}.sample-count{font-size:13px;color:var(--muted);margin:0 0 6px}.samples{flex:1;min-height:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:max-content;align-content:start;gap:6px;overflow-y:auto;overflow-x:hidden;padding:2px 2px 12px;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}.sample{border:1px solid var(--line);border-radius:9px;background:#fafbf7;min-height:55px;padding:7px 4px;overflow-wrap:anywhere}.sample b{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:23px;line-height:1.3}.sample small{font-size:19px;color:var(--muted)}.sample[aria-pressed=true]{border:2px solid var(--green);background:#edf5e5}.practice-hidden{filter:blur(5px);user-select:none}.practice-hidden.is-revealed{filter:none;user-select:auto}.load-message{background:#fff6db;border-radius:10px;padding:12px;font-size:16px}.load-message button{margin-left:8px}
 @media(max-width:650px){.app{border-radius:0;border:0;padding-left:max(8px,env(safe-area-inset-left));padding-right:max(8px,env(safe-area-inset-right))}.page-switch{gap:4px}.page-switch button{font-size:15px;min-height:60px;padding:5px 3px;word-break:normal;overflow-wrap:anywhere}.nav-secondary{font-size:11px}.builder{gap:5px}.builder label{font-size:15px}.builder select,.combined-sound{font-size:30px;height:60px;padding:4px;line-height:50px}.builder .tone-select{font-size:19px}.tone{min-height:60px}.tone small{font-size:12px}.tone b{font-size:30px}.tone .tone-endings{font-size:15px;letter-spacing:-.8px}.formula{font-size:24px;padding:12px 8px}.builder-play{font-size:18px}.voice-display{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:10px}.syllable,.han{font-size:clamp(60px,22vw,112px)}.listen-controls{padding-top:4px}.source-row{font-size:12px}.primary,.secondary{padding:8px 10px;font-size:16px}.status{font-size:13px}.samples{grid-template-columns:repeat(2,minmax(0,1fr))}.sample b{font-size:24px}.sample small{font-size:21px}.practice-tools{gap:6px}.practice-modes button{padding:6px 8px;font-size:13px}.practice-speed{font-size:14px}.speed-field{font-size:17px}.player{padding:10px 6px}}
@@ -117,6 +117,79 @@ html,body{background-color:var(--bg)}
 audio{color-scheme:light}
 
 </style>
+<style>
+/* 辭庫第四列：1、2、3、5、7 調符號放大 100%；4、8 調雙列並停用。 */
+#tones .tone:is([data-tone="1"],[data-tone="2"],[data-tone="3"],[data-tone="5"],[data-tone="7"]) > b {
+  font-size: 52px;
+  line-height: 1.05;
+}
+#tones .tone:is([data-tone="4"],[data-tone="8"]) > b.tone-two-lines {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:0;
+  letter-spacing:0;
+  white-space:nowrap;
+  font-size:21px;
+  line-height:1.12;
+}
+#tones .tone-two-lines .tone-stack-top,
+#tones .tone-two-lines .tone-stack-bottom {
+  display:block;
+  font-size:inherit;
+  line-height:1.12;
+}
+#tones .tone:is([data-tone="4"],[data-tone="8"]):disabled {
+  opacity:.36;
+  color:var(--mut);
+  background:var(--card);
+  border-color:var(--line);
+  -webkit-text-fill-color:currentColor;
+  cursor:not-allowed;
+}
+
+/* 辭庫第四列八欄對齊主畫面第三列，同位置、同八等分。 */
+#tones {
+  width:100%;
+  margin-left:0;
+  margin-right:0;
+  grid-template-columns:repeat(8,minmax(0,1fr));
+  gap:2px;
+}
+#tones .tone {padding-inline:0;min-width:0;}
+#tones .tone[data-tone="all"] {
+  font-family:inherit;
+  font-size:clamp(13px,3.64vw,18.2px);
+  letter-spacing:-1.2px;
+  white-space:nowrap;
+  font-weight:500;
+  cursor:pointer;
+}
+#tones .tone[data-tone="all"][aria-pressed="true"] {
+  background:var(--green);border-color:var(--green);color:white;font-weight:700;
+}
+@media(max-width:360px){#tones .tone[data-tone="all"]{font-size:13px;letter-spacing:-2.1px}}
+/* 辭庫：保留自測工具列四個名稱放大 50% 的字級。 */
+#examplesPanel .practice-tools{display:block;margin-bottom:6px}
+#examplesPanel .practice-modes{
+  display:flex;width:100%;min-width:0;flex-wrap:wrap;
+  align-items:center;justify-content:flex-start;
+  column-gap:6px;row-gap:5px;
+  font-size:19.5px;line-height:1.3;
+}
+#examplesPanel .practice-modes button{
+  font-size:inherit;line-height:1.2;height:auto;min-height:30px;
+  padding:3px 5px;white-space:normal;
+}
+#examplesPanel .practice-result-hint{
+  font-size:inherit;line-height:1.3;white-space:nowrap;
+}
+@media(max-width:350px){
+  #examplesPanel .practice-modes{column-gap:4px}
+  #examplesPanel .practice-modes button{padding-inline:3px}
+}
+</style>
 </head>
 <body><main class="app" id="app" data-page="build">
 <nav class="page-switch" id="pageSwitch" role="tablist" aria-label="切換學習分頁">
@@ -160,8 +233,6 @@ audio{color-scheme:light}
 <div class="tone-slot"></div>
 <div class="practice-tools" id="practiceTools">
 <div class="practice-modes" role="group" aria-label="自測顯示方式"><button data-practice-mask="none" aria-pressed="true">全部顯示</button><button data-practice-mask="poj" aria-pressed="false">遮白話字自測</button><button data-practice-mask="han" aria-pressed="false">遮漢字自測</button><span class="practice-result-hint">點擊看結果</span></div>
-<label class="practice-speed">調整速度<select id="practiceSpeed" aria-label="例音換序速度"><option value="3">3秒</option><option value="4">4秒</option><option value="5">5秒</option><option value="7">7秒</option><option value="10">10秒</option></select></label>
-<span class="toolbar-sample-count" id="toolbarSampleCount"></span>
 </div><div class="samples" id="samples" aria-label="真人例音，點選可聆聽"></div>
 </section>
 </div>
@@ -238,7 +309,7 @@ const $ = id => document.getElementById(id);
 const panels = {build:'builderPanel', advanced:'advancedBuilderPanel', auto:'autoBuilderPanel', listen:'player', examples:'examplesPanel'};
 const audio = $('voiceAudio');
 let dictionaryActive = true;
-const state = {rows:[], data:{}, current:null, page:'build', ready:false, auto:false, linked:false, autoTimer:null, dictionaryTimer:null, mask:'none', speed:3, dictionarySpeed:3, generation:0,pairs:{}};
+const state = {rows:[], data:{}, current:null, page:'build', ready:false, auto:false, linked:false, autoTimer:null, dictionaryTimer:null, mask:'none', speed:3, dictionarySpeed:3, generation:0,pairs:{},dictionaryTone:1};
 const escapeHtml = text => String(text).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const option = (value, label = value || '無聲母') => `<option value="${escapeHtml(value)}">${escapeHtml(label)}</option>`;
 const isAutoPage = () => state.page === 'auto' || (state.page === 'listen' && state.linked);
@@ -277,10 +348,13 @@ function renderTones() {
   const x = state.current, selectable = state.page === 'examples';
   const symbols = {1:'a',2:'á',3:'à',4:'aptkh',5:'â',7:'ā',8:'a̍ptkh'};
   $('tones').innerHTML = TONES.map(t => {
-    let symbol = symbols[t];
-    if ([4,8].includes(t)) symbol = (t === 4 ? 'a' : 'a̍') + ['p','t','k','h'].map(letter => `<span class="tone-ending-letter${t === x.tone && matchedEnding(x,letter) ? ' is-match' : ''}">${letter}</span>`).join('');
-    return `<button class="tone" data-tone="${t}" aria-label="第 ${t} 調 ${symbols[t]}" aria-pressed="${x.tone === t}"${selectable ? '' : ' disabled aria-disabled="true"'}><small>第 ${t} 調</small><b${[4,8].includes(t) ? ' class="tone-endings"' : ''}>${symbol}</b></button>`;
-  }).join('');
+    const locked = (t === 4 || t === 8);
+    const symbol = locked
+      ? `<span class="tone-stack-top">${t === 4 ? 'ah' : 'a̍h'}</span><span class="tone-stack-bottom">ptk</span>`
+      : symbols[t];
+    const disabled = locked || !selectable;
+    return `<button class="tone" data-tone="${t}" aria-label="第 ${t} 調${locked ? '（停用）' : ''}" aria-pressed="${!locked && state.dictionaryTone === t}"${disabled ? ' disabled aria-disabled="true"' : ''}><b${locked ? ' class="tone-endings tone-two-lines"' : ''}>${symbol}</b></button>`;
+  }).join('') + `<button class="tone" type="button" data-tone="all" aria-label="全部音調" aria-pressed="${state.dictionaryTone === null}">← 全部</button>`;
 }
 function renderCurrent() {
   if (!state.current) return;
@@ -378,13 +452,23 @@ function startAuto() {
   $('play').textContent = '▶ 再聽一次';playCurrent();scheduleAuto();
 }
 function renderSamples() {
-  const tone = state.current.tone, rows = shuffled(state.data[tone]);
-  const count = `第 ${tone} 調 ${rows.length}/${state.rows.length.toLocaleString('en-US')} 個`;
-  $('toolbarSampleCount').textContent = count;
+  const tone = state.dictionaryTone;
+  const rows = shuffled(tone === null ? state.rows : state.data[tone]);
   $('samples').innerHTML = rows.map(row => {
     const id = state.rows.indexOf(row), maskPoj = state.mask === 'poj', maskHan = state.mask === 'han';
     return `<button class="sample" data-row="${id}" aria-pressed="${row === state.current}" aria-label="${state.mask === 'none' ? `播放 ${escapeHtml(row.poj)} ${escapeHtml(meaningText(row))}` : '點擊揭曉例音'}"><b${maskPoj ? ' class="practice-hidden" aria-hidden="true"' : ''}>${escapeHtml(row.poj)}</b>&nbsp;&nbsp;<small${maskHan ? ' class="practice-hidden" aria-hidden="true"' : ''}>${escapeHtml(meaningText(row))}</small></button>`;
   }).join('');
+}
+function selectDictionaryTone(tone, notifyParent=false) {
+  if(!state.ready)return;
+  const selected=(tone === 'all'||tone === null)?null:Number(tone);
+  if(selected!==null&&!TONES.includes(selected))return;
+  state.dictionaryTone=selected;
+  state.current=selected===null ? state.rows[0] : state.data[selected][0];
+  renderCurrent();renderSamples();$('samples').scrollTop=0;startDictionary();
+  if(notifyParent && window.parent!==window){
+    window.parent.postMessage({type:'dictionary-tone-selected',tone:selected===null?'all':selected},'*');
+  }
 }
 function startDictionary() {
   stopDictionary();
@@ -395,7 +479,7 @@ function startDictionary() {
 }
 function navigate(page) {
   if (page === 'examples') {
-    showPage(page);state.current = state.data[1][0];renderCurrent();renderSamples();
+    showPage(page);state.current = state.dictionaryTone===null ? state.rows[0] : state.data[state.dictionaryTone][0];renderCurrent();renderSamples();
     $('samples').scrollTop = 0;startDictionary();
   } else if (page === 'auto') {showPage(page);startAuto();}
   else {
@@ -434,7 +518,7 @@ $('autoToneSpeed').addEventListener('change', event => {
 $('tones').addEventListener('click', event => {
   const button = event.target.closest('[data-tone]');
   if (!button || button.disabled || state.page !== 'examples') return;
-  state.current = state.data[button.dataset.tone][0];renderCurrent();renderSamples();$('samples').scrollTop = 0;startDictionary();
+  selectDictionaryTone(button.dataset.tone,true);
 });
 $('samples').addEventListener('click', event => {
   const button = event.target.closest('[data-row]');if (!button) return;
@@ -449,10 +533,6 @@ $('practiceTools').addEventListener('click', event => {
   const button = event.target.closest('[data-practice-mask]');if (!button) return;
   state.mask = button.dataset.practiceMask;
   document.querySelectorAll('[data-practice-mask]').forEach(b => b.setAttribute('aria-pressed', String(b === button)));renderSamples();
-});
-$('practiceSpeed').addEventListener('change', () => {
-  const seconds = Number($('practiceSpeed').value);if (!SPEEDS.includes(seconds)) return;
-  state.dictionarySpeed = seconds;startDictionary();
 });
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) {stopDictionary();stopAuto();cancelPlayback('已暫停；回到頁面後按播放繼續。');}
@@ -474,10 +554,25 @@ Promise.resolve([DICTIONARY_DATA, DICTIONARY_PAIRS]).then(([data,pairs])=>{
 
 // Stop hidden-tab recordings and reshuffling; reactivate at tone 1 as in the source project.
 window.addEventListener('message', event => {
-  if(event.source !== parent || event.data?.type !== 'dictionary-active')return;
+  if(event.source !== parent)return;
+  const type=event.data?.type;
+  if(type !== 'dictionary-active' && type !== 'dictionary-speed' && type !== 'dictionary-tone')return;
+  const seconds=Number(event.data.speed);
+  if(SPEEDS.includes(seconds))state.dictionarySpeed=seconds;
+  if(type === 'dictionary-tone'){
+    if(state.ready)selectDictionaryTone(event.data.tone,false);
+    return;
+  }
+  if(type === 'dictionary-speed'){
+    if(dictionaryActive && state.ready)startDictionary();
+    return;
+  }
   dictionaryActive=!!event.data.active;
   if(!dictionaryActive){stopDictionary();stopAuto();cancelPlayback();}
-  else if(state.ready)navigate('examples');
+  else if(state.ready){
+    if('tone' in event.data){const t=event.data.tone;state.dictionaryTone=(t==='all'||t===null)?null:Number(t);}
+    navigate('examples');
+  }
 });
 
 </script>
